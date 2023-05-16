@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const moduleExports = {
+  poweredByHeader: false,
+  reactStrictMode: true,
+};
 
-module.exports = nextConfig
+module.exports = moduleExports;
